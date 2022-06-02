@@ -30,9 +30,9 @@ let num1=prompt("Escriba un número");
 let num2=prompt("Escriba un número");
 
 if (num1<num2){
-    alert(num1);
+    alert("El número menor es" + num1);
 }else if (num1>num2){
-    alert(num2);
+    alert("El número menor es" + num2);
 }
 
 //Ejercicio 7
@@ -40,16 +40,16 @@ let num1=prompt("Escriba un número");
 let num2=prompt("Escriba un número");
 let num3=prompt("Escriba un número");
 
-if (num1>num2 && num3){
-    alert(num1);
+if (num1===num2){
+    alert ("Los números son iguales");
+}else if (num2===num3){
+    alert ("Los números son iguales");
+}else if (num3===num1){
+    alert ("Los números son iguales");
+}else if(num1>num2 && num3){
+    alert("El número mayor es el"+ num1);
 }else if (num2>num1 && num3){
-    alert (num2);
+    alert ("El número mayor es el"+ num2);
 }else if (num3<num1 && num2){
-    alert (num3);
-}else if (num1==num2){
-    alert ("son iguales");
-}else if (num2==num3){
-    alert ("son iguales");
-}else if (num3==num1){
-    alert ("son iguales");
+    alert ("El número mayor es el"+ num3);
 }
